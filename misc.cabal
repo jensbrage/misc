@@ -1,0 +1,46 @@
+name:                misc
+version:             0.1.0.0
+synopsis:            <https://www.haskell.org/cabal/users-guide/developing-packages.html>
+description:         <https://www.haskell.org/cabal/users-guide/developing-packages.html>
+homepage:            https://github.com/jensbrage/misc#readme
+author:              Jens Brage
+maintainer:          jensbrage@gmail.com
+copyright:           Copyright © 2016, Jens Brage
+license:             ISC
+license-file:        LICENSE
+category:            Unclassified
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >= 1.10
+
+library
+    hs-source-dirs:      src
+    exposed-modules:     Data.String.Strip
+    build-depends:       base
+    default-language:    Haskell2010
+
+executable misc
+    hs-source-dirs:      src-main
+    main-is:             Main.hs
+    ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+    build-depends:       base
+                       , misc
+                       , random
+    default-language:    Haskell2010
+
+test-suite misc-spec
+    type:                exitcode-stdio-1.0
+    hs-source-dirs:      src-spec
+    main-is:             Spec.hs
+    build-depends:       base
+                       , containers
+                       , hspec
+                       , misc
+                       , QuickCheck >= 2.0
+                       , random
+    ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+    default-language:    Haskell2010
+
+source-repository head
+    type:     git
+    location: https://github.com/jensbrage/misc
