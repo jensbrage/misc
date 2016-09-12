@@ -17,7 +17,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/jens/GitHub/misc/.stack-work/install/x86_64-osx/lts-6.16/7.10.3/bin"
-libdir     = "/Users/jens/GitHub/misc/.stack-work/install/x86_64-osx/lts-6.16/7.10.3/lib/x86_64-osx-ghc-7.10.3/misc-0.1.0.0-1jHH4saeLkxEk3I2clXiJz"
+libdir     = "/Users/jens/GitHub/misc/.stack-work/install/x86_64-osx/lts-6.16/7.10.3/lib/x86_64-osx-ghc-7.10.3/misc-0.1.0.0-7jKk0pnbgs89KYe2GFy4TX"
 datadir    = "/Users/jens/GitHub/misc/.stack-work/install/x86_64-osx/lts-6.16/7.10.3/share/x86_64-osx-ghc-7.10.3/misc-0.1.0.0"
 libexecdir = "/Users/jens/GitHub/misc/.stack-work/install/x86_64-osx/lts-6.16/7.10.3/libexec"
 sysconfdir = "/Users/jens/GitHub/misc/.stack-work/install/x86_64-osx/lts-6.16/7.10.3/etc"

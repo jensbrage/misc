@@ -1,0 +1,135 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-12 12:21:42.020338 UTC
+
+interface misc_7jKk0pnbgs89KYe2GFy4TX:Misc.DeBruijnSequence 7103
+  interface hash: fa04239d1bf030f95273afe67d219fae
+  ABI hash: 0c077ea98bcd0812b2812504392a299c
+  export-list hash: 96873056c816db6152cd6e3565159cf8
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 7fa1c453da9ed00643360e3ac3fa5c43
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Misc.DeBruijnSequence.deBruijnSequenceIO
+  Misc.DeBruijnSequence.deBruijnSequences
+module dependencies:
+package dependencies: MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0*
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL*
+                      random-shuffle-0.0.4@rando_9kOz9tEn1526ShtWz8x59X
+                      split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz:Control.Monad.Random
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set 7116dff3002cb8f8fc1c63ac63f4ea50
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base e94d20329e6707c26460899044ee8ac3
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL:System.Random d515be7800d601546639722a30f2fed4
+import  -/  random-shuffle-0.0.4@rando_9kOz9tEn1526ShtWz8x59X:System.Random.Shuffle 20314576628213fc1b5edc5f9f6961d5
+import  -/  split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE:Data.List.Split 487cc1966f0f25916f1ba58bdff4b0ee
+import  -/  split-0.2.3.1@split_2IxbOPGrTSq7kFrJA7odmE:Data.List.Split.Internals ec8cf5264ec78ab060cadb7ee5b994f0
+3cd8bb1dabfeaeba6f3c193d2a58a5ac
+  $sinsert_go5 ::
+    GHC.Classes.Ord a3 =>
+    a3 -> Data.Set.Base.Set a3 -> Data.Set.Base.Set a3
+  {- Arity: 3,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><S,1*U><S,1*U> -}
+08d27f90ac14240bb4dfaaf855c089d3
+  $w$sdeBruijnSequences ::
+    GHC.Types.Int
+    -> GHC.Prim.Int# -> System.Random.StdGen -> [[GHC.Types.Int]]
+  {- Arity: 3, Strictness: <L,U(U)><S,U><L,U>, Inline: [0] -}
+b15c56e8f0d72052717431cc32ee08e0
+  deBruijnSequenceIO ::
+    GHC.Types.Int -> GHC.Types.Int -> GHC.Types.IO [GHC.Types.Int]
+  {- Arity: 3, Strictness: <L,U(U)><L,U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Misc.DeBruijnSequence.deBruijnSequenceIO1
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <[GHC.Types.Int]>_R)) -}
+bf5786e762a70dd4a16cdc2cbca6454b
+  deBruijnSequenceIO1 ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [GHC.Types.Int] #)
+  {- Arity: 3, Strictness: <L,U(U)><L,U(U)><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ k :: GHC.Types.Int
+                   n :: GHC.Types.Int
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.Random.theStdGen
+                        `cast`
+                      (GHC.IORef.NTCo:IORef[0] <System.Random.StdGen>_N) of wild { GHC.STRef.STRef r# ->
+                 case GHC.Prim.atomicModifyMutVar#
+                        @ GHC.Prim.RealWorld
+                        @ System.Random.StdGen
+                        @ (System.Random.StdGen, System.Random.StdGen)
+                        @ System.Random.StdGen
+                        r#
+                        System.Random.newStdGen2
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of b1 { System.Random.StdGen ipv2 ipv3 ->
+                 (# ipv,
+                    case Misc.DeBruijnSequence.deBruijnSequenceIO_$sdeBruijnSequences
+                           k
+                           n
+                           b1 of wild1 {
+                      [] -> GHC.List.badHead @ [GHC.Types.Int]
+                      : x ds2 -> x } #) } } }) -}
+27d2a16b60f9bacc9fb2a920fb2bde21
+  deBruijnSequenceIO_$sdeBruijnSequences ::
+    GHC.Types.Int
+    -> GHC.Types.Int -> System.Random.StdGen -> [[GHC.Types.Int]]
+  {- Arity: 3, Strictness: <L,U(U)><S(S),U(U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ w :: GHC.Types.Int
+                   w1 :: GHC.Types.Int
+                   w2 :: System.Random.StdGen ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 Misc.DeBruijnSequence.$w$sdeBruijnSequences w ww1 w2 }) -}
+4add2d7997bbb75d63d5fded95cf11f7
+  deBruijnSequences ::
+    System.Random.RandomGen g =>
+    GHC.Types.Int -> GHC.Types.Int -> g -> [[GHC.Types.Int]]
+  {- Arity: 3,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U,U)),A)><L,U(U)><L,U(U)> -}
+"SPEC deBruijnSequences @ StdGen" [ALWAYS] forall $dRandomGen :: System.Random.RandomGen
+                                                                   System.Random.StdGen
+  Misc.DeBruijnSequence.deBruijnSequences @ System.Random.StdGen
+                                          $dRandomGen
+  = Misc.DeBruijnSequence.deBruijnSequenceIO_$sdeBruijnSequences
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

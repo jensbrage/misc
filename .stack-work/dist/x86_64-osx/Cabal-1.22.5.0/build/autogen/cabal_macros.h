@@ -7,6 +7,13 @@
   (major1) == 4 && (major2) <  8 || \
   (major1) == 4 && (major2) == 8 && (minor) <= 2)
 
+/* package containers-0.5.6.2 */
+#define VERSION_containers "0.5.6.2"
+#define MIN_VERSION_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 6)
+
 /* package random-1.1 */
 #define VERSION_random "1.1"
 #define MIN_VERSION_random(major1,major2,minor) (\
@@ -14,19 +21,26 @@
   (major1) == 1 && (major2) <  1 || \
   (major1) == 1 && (major2) == 1 && (minor) <= 0)
 
+/* package random-shuffle-0.0.4 */
+#define VERSION_random_shuffle "0.0.4"
+#define MIN_VERSION_random_shuffle(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  0 || \
+  (major1) == 0 && (major2) == 0 && (minor) <= 4)
+
+/* package split-0.2.3.1 */
+#define VERSION_split "0.2.3.1"
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+
 /* package QuickCheck-2.8.2 */
 #define VERSION_QuickCheck "2.8.2"
 #define MIN_VERSION_QuickCheck(major1,major2,minor) (\
   (major1) <  2 || \
   (major1) == 2 && (major2) <  8 || \
   (major1) == 2 && (major2) == 8 && (minor) <= 2)
-
-/* package containers-0.5.6.2 */
-#define VERSION_containers "0.5.6.2"
-#define MIN_VERSION_containers(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  5 || \
-  (major1) == 0 && (major2) == 5 && (minor) <= 6)
 
 /* package hspec-2.2.3 */
 #define VERSION_hspec "2.2.3"
@@ -112,5 +126,5 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 1)
 
-#define CURRENT_PACKAGE_KEY "misc_1jHH4saeLkxEk3I2clXiJz"
+#define CURRENT_PACKAGE_KEY "misc_7jKk0pnbgs89KYe2GFy4TX"
 
