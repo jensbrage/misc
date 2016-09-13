@@ -1,4 +1,4 @@
-I wrote this program to generate a random ![de Bruijn sequences](https://en.wikipedia.org/wiki/De_Bruijn_sequence) in order to create a necklace.
+I wrote this program to generate a random [de Bruijn sequences](https://en.wikipedia.org/wiki/De_Bruijn_sequence) in order to create a necklace.
 
 ![The resulting necklace.](DeBruijnSequence/IMG_3264.jpg)
 ![Another image of the necklace.](DeBruijnSequence/IMG_3267.jpg)
