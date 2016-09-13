@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2016-09-12 12:07:35.255887 UTC
+2016-09-12 14:56:49.874995 UTC
 
 interface main@main:Main 7103
-  interface hash: deaac2e69d587f54fb395e9219e19f69
-  ABI hash: 7e7034ee4718dcc011eff513e839ef42
+  interface hash: 0d9ca82b0f3621847255caecaf6f6535
+  ABI hash: 5c1de2aa97ffa6a9fc9f5c09db803120
   export-list hash: 93c8aaabcaaa31686210c394f8c42d79
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 94c78c8d935fcdae7ca3bc8187762955
@@ -69,18 +69,18 @@ import  -/  hspec-core-2.2.3@hspec_2wZj3tYQKit6zwgvpRU19S:Test.Hspec.Core.Runner
 import  -/  hspec-core-2.2.3@hspec_2wZj3tYQKit6zwgvpRU19S:Test.Hspec.Core.Spec d25dddc837e31d1f6bc7ec604ee173e6
 import  -/  hspec-core-2.2.3@hspec_2wZj3tYQKit6zwgvpRU19S:Test.Hspec.Core.Spec.Monad 610a41ec7704b4b8505d6f65d3adc520
 import  -/  hspec-2.2.3@hspec_Ah5y3cxd3oWFMsWyuzozuw:Test.Hspec.Discover 78923476cd870a32318f08a1382e310f
-import  -/  Data.String.StripSpec c31953331a06c9fbd521c799d1a2eb9e
+import  -/  Data.String.StripSpec d58f170a269a80ca5ad217a33afd1a6d
   exports: df2a56387de8d6aa9184df4c54931fc5
-  spec 4251a40ef03e0bad86579be22afc5a8f
-import  -/  Misc.DeBruijnSequenceSpec b81f3e24937a98fc3fc5ec67ccee120c
+  spec 53ee016209c45f9d24df79000bc858c9
+import  -/  Misc.DeBruijnSequenceSpec da6dd0d6710e9006d12d476fc0f6421f
   exports: 863bbb9e1fec0ef1368a0df35012408e
-  spec 49e26d2f5e467c385fc768126af4f3e4
-30d32a8921e641b5d817b9e07f704b50
+  spec 6dea006167e4ca31277f94494b6db8cd
+751d14d9dec79e30a9bde404d49ff3f0
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-db39364d31a1a5df6a834c74a3353ee4
+6cac2ad1c01ec6a741bf3852de6b8a61
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -105,7 +105,7 @@ db39364d31a1a5df6a834c74a3353ee4
                  case x of wild2 {
                    DEFAULT -> System.Exit.die2 @ () ipv
                    0 -> (# ipv, GHC.Tuple.() #) } } } }) -}
-875a4a7f02804761d472782294028edc
+fac4e50a1299ca6135c271544bd032c7
   main10 ::
     [Test.Hspec.Core.Tree.Tree
        (Test.Hspec.Core.Example.ActionWith ())
@@ -119,7 +119,7 @@ db39364d31a1a5df6a834c74a3353ee4
                       @ (Test.Hspec.Core.Tree.Tree
                            (Test.Hspec.Core.Example.ActionWith ())
                            (Test.Hspec.Core.Tree.Item ())))) -}
-a269f715acb597ad649aac852c8f1777
+26206d4cdb5d72dcdd3984e025986384
   main11 ::
     Test.Hspec.Core.Tree.Tree
       (Test.Hspec.Core.Example.ActionWith ())
@@ -145,7 +145,7 @@ e6be10a5c60f7d9f2a4e2bd9e4b32c46
   main15 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "src-spec/Data/String/StripSpec.hs"#) -}
-6df208573096e53154781e6cc4b59461
+9ff81b17b8901b667a0bc60fd76eed75
   main16 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -153,7 +153,7 @@ e6be10a5c60f7d9f2a4e2bd9e4b32c46
      Unfolding: (GHC.TopHandler.runMainIO1
                    @ ()
                    Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
-5b12d6edd164d56de1a4d3841b477ec5
+41c08fff15d7f2fd0fd0ffbb804a939c
   main2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -197,7 +197,7 @@ e6be10a5c60f7d9f2a4e2bd9e4b32c46
                             (Test.Hspec.Core.Tree.Item ()))
                        w6
                        (case ipv3 of wild1 { (,) b1 w' -> w' }) }) #) } }) -}
-af01a19f2b915d0a2a4e906be06249a0
+6a39607e3924a1eaa54163cd37cf26b1
   main3 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -242,7 +242,7 @@ f1601df757afdc91744b09245b0451fd
   main7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "src-spec/Misc/DeBruijnSequenceSpec.hs"#) -}
-14ca9f7eb17ccad6620d8ee40fd82e75
+9de9296b46b5ab7cc4fa494fb5104e03
   main8 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -254,14 +254,14 @@ f1601df757afdc91744b09245b0451fd
      Unfolding: (\ eta2 :: GHC.Prim.State#
                              GHC.Prim.RealWorld[OneShot] ->
                  (# eta2, Main.main9 #)) -}
-a123b6c5c84abd8c06baf650b548f85f
+6a8e4261a14aac4d1f5968c7d942ae64
   main9 ::
     ((),
      [Test.Hspec.Core.Tree.Tree
         (Test.Hspec.Core.Example.ActionWith ())
         (Test.Hspec.Core.Tree.Item ())])
   {- Unfolding: ((GHC.Tuple.(), Main.main10)) -}
-a13660ecb936cbf7b12c2e63a01a8143
+0221d8ad3f34fb8ccd9b2f6e833da0da
   spec :: Test.Hspec.Core.Spec.Monad.Spec
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
